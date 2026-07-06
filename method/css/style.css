@@ -1,0 +1,33 @@
+h2{
+	margin-top: 20px;
+}
+section{
+	padding: 30px 100px;
+}
+span{
+	font-weight: bold;
+	color:red;
+}
+.bgc-gray{
+     background-color: #d6e6f9;
+}
+
+.bgc-lightgray{
+	background-color: #edf4fc;
+}
+
+button{
+	padding: 10px 20px;
+}
+
+.in{
+	display: none;
+}
+
+.show{
+	display: none;
+}
+
+.red{
+	background-color: red;
+}

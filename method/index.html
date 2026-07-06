@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>onメソッドの使用例</title>
+    <link rel="stylesheet" href="./css/style.css" charset="utf-8">
+  </head>
+  <body>
+<main>
+<section class="bgc-lightgray">
+  <h2>①.alert()</h2>
+  <p>クリックすると「clickしました」とアラートが表示される</p>
+  <button class="b1">.click</button>
+</section>
+
+<section class="bgc-gray">
+  <h2>②.fadeIn()</h2>
+  <p>クリックすると「FADEIN」と表示される</p>
+  <button class="b2">.fadeIn</button>
+  <div class="in">FADEIN</div>
+</section>
+
+<section class="bgc-lightgray">
+  <h2>③.fadeOut()</h2>
+  <p>クリックすると「FADEIN」が表示されなくなる</p>
+  <button class="b3">.fadeIn</button>
+  <div class="out">FADEIN</div>
+</section>
+
+<section class="bgc-gray">
+  <h2>④.show()</h2>
+  <p>クリックすると「SHOW」と表示される</p>
+  <button class="b4">.show</button>
+  <div class="show">SHOW</div>
+</section>
+
+<section class="bgc-lightgray">
+  <h2>⑤.hide()</h2>
+  <p>クリックすると「SHOW」が表示されなくなる</p>
+  <button class="b5">.hide</button>
+  <div class="hide">SHOW</div>
+</section>
+
+<section class="bgc-gray">
+  <h2>⑥.toggle()</h2>
+  <p>クリックした時に「SHOW」が表示されていたら<span>.hideの役割を果たして</span><br>
+    「SHOW」が表示されていなかったら<span>.showの役割を果たす</span></p>
+  <button class="b6">.toggle</button>
+  <div class="toggle">TOGGLE</div>
+</section>
+
+<section class="bgc-lightgray">
+  <h2>⑦.addClass()</h2>
+  <p>クリックすると<span>button class="b7"</span>に<span>red</span>というクラスが追加される</p>
+  <button class="b7">.addClass</button>
+</section>
+
+<section class="bgc-gray">
+  <h2>⑧.removeClass()</h2>
+  <p>クリックすると<span>button class="b8 red"</span>から<span>red</span>というクラスが取り除かれる</p>
+  <button class="b8 red">.removeClass</button>
+</section>
+
+<section class="bgc-lightgray">
+  <h2>⑨.toggleClass() part.1</h2>
+  <p>クリックした時に、b9というクラスにredというクラスが付いていたら<span>b9からredを取り除き</span><br>
+    b9というクラスにredというクラスが付いていなかったら<span>b9にredというクラスを付ける</span></p>
+  <button class="b9 red">.toggleClass</button>
+
+  <h2>⑨.toggleClass() part.2</h2>
+  <button class="b9">.toggleClass</button>
+  </section>
+</main>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
