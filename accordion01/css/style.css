@@ -1,0 +1,29 @@
+dt{
+	/* 要素を縦に並べる */
+	display:block;
+	background:#3399cc;
+	width:200px;
+	height:50px;
+	/* heightと同じ高さにすることで上下の中央寄せができる */
+	line-height:50px;
+	text-align:center;
+	/* カーソルを当てた時にポインターに変わる */
+	border:#89bdde 1px solid;
+	cursor:pointer;
+	color: #ffffff;
+}
+
+dd{
+	/* デフォルトだとddの左側に余白ができてしまうのでresetしている */
+	margin-left: 0;
+	background:#89bdde;
+	width:200px;
+	height:50px;
+	/* heightと同じ高さにすることで上下の中央寄せができる */
+	line-height:50px;
+	text-align:center;
+	border:#3399cc 1px solid;
+	/* クリックするまでは、非表示 */
+	display:none;
+	color: #ffffff;
+}

@@ -1,0 +1,58 @@
+
+.accordion-container {
+  position: relative;
+  width: 100%;
+  cursor: pointer
+}
+
+.accordion-container .accordion-title {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #ffffff;
+  background:#3399cc;
+  border:#89bdde 1px solid;
+  cursor: pointer;
+}
+
+.accordion-title{
+  position: relative;
+}
+
+.accordion-title:after {
+  content: "";
+  /* 矢印の位置の指定 */
+  position: absolute;
+  right: 20px;
+  top: 40%;
+  /* 矢印の作成 */
+  width: 8px;
+  height: 8px;
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  /* 矢印の角度調整 */
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.accordion-title.open:after {
+  /* 開いている時に矢印の向きを上にするため */
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 45%;
+}
+
+.accordion-content {
+  display: none;
+  padding-left: 20px;
+  background:#89bdde;
+  color: #ffffff;
+  border:#3399cc 1px solid;
+}
+
+.accordion-container {
+  width: 300px;
+}
